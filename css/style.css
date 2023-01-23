@@ -19,22 +19,22 @@ footer{
 }
 
 .debug .header_bottom{
-    background-color: rgb(38, 29, 205);
+    background-color: #00008B;
 }
 
 
 .debug .navigation_links{
-    background-color: yellow;
+    background-color: #DAA520;
     width: 30%;
 }
 
 .debug .header_top div{
-    background-color: yellow;
+    background-color: #DAA520;
     width: 15%;
 }
 
 .debug .header-info{
-    background-color: blueviolet;
+    background-color: #EE82EE;
 }
 
 .dotted{
@@ -42,24 +42,24 @@ footer{
 }
 
 .debug .section_img{
-    background: rgb(55, 105, 212);
+    background: #1E90FF;
 }
 
 .debug .reverse_section{
-    background-color: grey;
+    background-color: #D3D3D3;
 }
 
 
 .debug .section_desc{
-    background-color: rgb(238, 181, 252);
+    background-color: #EEB5FC;
 }
 
 .debug .last_section{
-    background-color: grey;
+    background-color: #D3D3D3;
 }
 
 .debug .last_section_info{
-    background-color: green;
+    background-color: #228B22;
 }
 
 
@@ -69,22 +69,22 @@ footer{
 
 
 .debug #social{
-    background-color: rgb(127, 155, 255);
+    background-color: #F08080;
 }
 
 .debug .generic_section_footer{
-    background-color: aquamarine;
+    background-color: #20B2AA;
 }
 .debug .footer_bottom .container_div_footer{
-    background-color: aquamarine;
+    background-color: #7FFFD4;
 }
 
 .debug .logo_footer{
-    background-color: rgb(203, 113, 10);
+    background-color: #FFB6C1;
 }
 
 .debug .bttn_footer{
-    background-color: rgb(203, 113, 10);
+    background-color: #FFB6C1;
 }
 
 /*  end DEBUG settings*/

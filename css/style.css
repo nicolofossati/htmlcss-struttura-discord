@@ -4,6 +4,12 @@ body{
     box-sizing: border-box;
 }
 
+
+main{
+    margin: auto;    
+}
+
+
 /*      DEBUG settings      */
 
 .debug .header_top{
@@ -33,6 +39,10 @@ body{
     border: dotted 2px black;
 }
 
+.debug section{
+    
+}
+
 /*  end DEBUG settings*/
 
 
@@ -60,9 +70,36 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px rgb(11, 118, 211) solid;
 }
 
 .header-info{
     width: 50%;
     height: 80%;
+}
+
+main section{
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse_section{
+    flex-direction: row-reverse;
+}
+
+section .section_img{
+    width: 40%;
+    height: 80%;
+    background: black;
+}
+
+
+
+section .section_desc{
+    width: 20%;
+    height: 80%;
+    background: rgb(183, 33, 33);
 }

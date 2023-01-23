@@ -4,9 +4,11 @@ body{
     box-sizing: border-box;
 }
 
+main{ 
+}
 
-main{
-    margin: auto;    
+footer{
+    
 }
 
 
@@ -60,6 +62,30 @@ main{
     background-color: green;
 }
 
+
+.debug footer{
+    background-color: rgb(36, 35, 35);
+}
+
+
+.debug #social{
+    background-color: rgb(127, 155, 255);
+}
+
+.debug .generic_section_footer{
+    background-color: aquamarine;
+}
+.debug .footer_bottom .container_div_footer{
+    background-color: aquamarine;
+}
+
+.debug .logo_footer{
+    background-color: rgb(203, 113, 10);
+}
+
+.debug .bttn_footer{
+    background-color: rgb(203, 113, 10);
+}
 
 /*  end DEBUG settings*/
 
@@ -125,4 +151,45 @@ section .section_desc{
 .last_section_info{
     height: 85%;
     width: 60%;
+}
+
+.footer_top{
+    height: 500px;
+    border-bottom: white 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social{
+    width: calc(60%/6 *2);
+}
+
+.generic_section_footer{
+    height: 90%;
+    width: calc(60%/6);
+    border: 2px white dotted;
+}
+
+.footer_bottom{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer_bottom .container_div_footer{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_footer{
+    padding: 10px 20px;
+}
+
+.bttn_footer{
+    padding: 10px 20px;
 }

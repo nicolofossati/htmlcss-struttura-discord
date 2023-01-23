@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*      DEBUG settings      */
+
+.debug .header_top{
+    background-color: rgb(192, 236, 236);
+}
+
+.debug .header_bottom{
+    background-color: rgb(38, 29, 205);
+}
+
+
+.debug .navigation_links{
+    background-color: yellow;
+    width: 30%;
+    border: dotted 2px black;
+}
+
+.debug .header_top div{
+    background-color: yellow;
+    width: 15%;
+    border: dotted 2px black;
+}
+
+/*  end DEBUG settings*/
+
+
+.header_top{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_top > *{
+    height: 40px;
+} 
+
+.header_bottom{
+    height: 400px;
+}

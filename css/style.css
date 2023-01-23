@@ -39,9 +39,27 @@ main{
     border: dotted 2px black;
 }
 
-.debug section{
-    
+.debug .section_img{
+    background: rgb(55, 105, 212);
 }
+
+.debug .reverse_section{
+    background-color: grey;
+}
+
+
+.debug .section_desc{
+    background-color: rgb(238, 181, 252);
+}
+
+.debug .last_section{
+    background-color: grey;
+}
+
+.debug .last_section_info{
+    background-color: green;
+}
+
 
 /*  end DEBUG settings*/
 
@@ -93,13 +111,18 @@ main section{
 section .section_img{
     width: 40%;
     height: 80%;
-    background: black;
 }
-
-
 
 section .section_desc{
     width: 20%;
     height: 80%;
-    background: rgb(183, 33, 33);
+}
+
+.last_section{
+    height: 800px;
+}
+
+.last_section_info{
+    height: 85%;
+    width: 60%;
 }

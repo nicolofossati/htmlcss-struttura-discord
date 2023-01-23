@@ -18,12 +18,18 @@ body{
 .debug .navigation_links{
     background-color: yellow;
     width: 30%;
-    border: dotted 2px black;
 }
 
 .debug .header_top div{
     background-color: yellow;
     width: 15%;
+}
+
+.debug .header-info{
+    background-color: blueviolet;
+}
+
+.dotted{
     border: dotted 2px black;
 }
 
@@ -37,10 +43,26 @@ body{
     align-items: center;
 }
 
-.header_top > *{
-    height: 40px;
+.logo{
+    height: 60%;
 } 
+
+.navigation_links{
+    height: 60%;
+}
+
+.login{
+    height: 60%;
+}
 
 .header_bottom{
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info{
+    width: 50%;
+    height: 80%;
 }
